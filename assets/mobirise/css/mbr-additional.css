@@ -3848,57 +3848,17 @@ background-color: @bgColor;
 }
 }
 
-.cid-sdYyNVHo6M {
-@fullWidth: false;
-@paddingTop: 3;
-@paddingBottom: 0;
-@showTitle: true;
-@showSubtitle: false;
-@uname__12: "file:///C:/Users/jms58/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-09-10_181506/assets/images/background1.jpg";
-@uname__13: true;
-@uname__14: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #000000;
-@overlayOpacity: 0.8;
+.cid-sdYAqSOxL3 {
+@paddingTop: 4;
+@paddingBottom: 4;
+@bgColor: #ffffff;
 
-padding-top: (@paddingTop * 1rem);
-padding-bottom: (@paddingBottom * 1rem);
-& when (@bg-type = 'color') {
-  background: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-.google-map {
-  height: 30rem;
-  position: relative;
-  iframe {
-    height: 100%;
-    width: 100%;
-  }
-  [data-state-details] {
-    color: #6b6763;
-    height: 1.5em;
-    margin-top: -0.75em;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-  }
-  &[data-state] {
-    background: #e9e5dc;
-  }
-  &[data-state="loading"] {
-    [data-state-details] {
-      display: none;
-    }
-  }
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
 }
 }
 
