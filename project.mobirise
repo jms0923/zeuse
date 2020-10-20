@@ -4222,7 +4222,7 @@
       "settings": {
         "title": "회사소개/오시는길",
         "order": 5,
-        "header_custom": "<script type=\"text/javascript\" src=\"https://naveropenapi.apigw.ntruss.com/map-static/v2/raster-cors?X-NCP-APIGW-API-KEY-ID={fw1b7ydb7k}\"></script>",
+        "header_custom": "<script type=\"text/javascript\" src=\"https://naveropenapi.apigw.ntruss.com/map-static/v2/raster-cors?X-NCP-APIGW-API-KEY-ID=fw1b7ydb7k&X-NCP-APIGW-API-KEY=uZzPaw6BtRVwHg8tmYCH4FXCIgpxeArE7XzaF0D2\"></script>",
         "footer_custom": "",
         "meta_descr": "",
         "html_before": ""
@@ -4312,7 +4312,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div id=\"map\" style=\"width:100%;height:400px;\"></div>\n    <img src=\"https://naveropenapi.apigw.ntruss.com/map-static/v2/raster?w=300&h=300&center=127.1054221,37.3591614&level=16&X-NCP-APIGW-API-KEY-ID={fw1b7ydb7k}&X-NCP-APIGW-API-KEY:{uZzPaw6BtRVwHg8tmYCH4FXCIgpxeArE7XzaF0D2}\"/>\n    \n    // [JS_CODE_0]\n    \n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div id=\"map\" style=\"width:100%;height:400px;\"></div>\n    <img src=\"https://naveropenapi.apigw.ntruss.com/map-static/v2/raster?w=300&h=300&center=127.1054221,37.3591614&level=16&X-NCP-APIGW-API-KEY-ID={fw1b7ydb7k}\"/>\n    \n    // [js code]\n    \n</section>",
           "_cid": "sdp1hC0OQI",
           "_anchor": "custom-html-6t",
           "_PHPplaceholders": [],
