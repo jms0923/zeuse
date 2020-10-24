@@ -558,11 +558,6 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
 }
-.mbr-section-btn a.btn:not(.btn-form):hover,
-.mbr-section-btn a.btn:not(.btn-form):focus {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-}
 .mbr-gallery-filter li a {
   border-radius: 100px !important;
 }
